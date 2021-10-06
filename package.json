@@ -24,6 +24,13 @@
   "homepage": "https://github.com/andygao1990/acme-movie-api#readme",
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^9.1.2"
+    "mocha": "^9.1.2",
+    "nodemon": "^2.0.13",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5"
   }
 }
