@@ -1,0 +1,29 @@
+{
+  "name": "acme-movie-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:dev": "npm run test -- --watch",
+    "start:dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andygao1990/acme-movie-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andygao1990/acme-movie-api/issues"
+  },
+  "homepage": "https://github.com/andygao1990/acme-movie-api#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2"
+  }
+}
